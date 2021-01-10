@@ -1,0 +1,30 @@
+MY PSEUDO CODE:
+For JavaScript Logic:
+- Connect the JS file to the HTML file
+- Input/Read user input field
+    - validate user input (reject anything that is not a number)
+- User clicks button
+- Grab number from user input field
+- Plug user input (fahrenheit) into formula
+    formula: celsius = f(f*9/5)+32
+- Return a result (celsius)
+6. Display/Update result in celsius on screen
+7. Clear 
+
+
+Resources I Used:
+https://www.tutorialrepublic.com/faq/how-to-get-the-value-of-text-input-field-using-javascript.php
+https://www.javatpoint.com/document-getElementById()-method
+https://www.tutorialspoint.com/how-getelementbyid-works-in-javascript
+https://www.javascript-coder.com/javascript-form/getelementbyid-form/
+https://www.javascript-coder.com/javascript-form/javascript-calculator-script/
+
+TEAM PSEUDO CODE:
+Connect HTML and JS files
+User clicks button
+Grab the number from the text input
+Calculate the celsius value with the formula c = (f * 9/5) + 32
+Update celsius text
+
+
+*A property is a value that you can get or set (like changing the content of an HTML element)

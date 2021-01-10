@@ -1,0 +1,56 @@
+* {
+box-sizing: border-box;
+}
+
+.bodyContainer {
+    border: solid black 2px;
+    /* display: flex; */
+    width: fit-content;
+    padding: 15px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Style heading and celsius label */
+.bold {
+    font-weight: bold;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#inputValue {
+    width: 8rem;
+    height: 2rem;
+    border: solid black 2px;
+    text-align: center;
+    margin: .4rem 5rem;
+}
+
+button {
+    padding: .25rem 1rem;
+}
+
+
+/* Bonus Styles */
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: orange;
+    border: solid gray 2px;
+    border-radius: 5px;
+    padding: .5rem;
+
+}

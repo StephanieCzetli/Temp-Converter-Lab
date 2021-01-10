@@ -1,0 +1,54 @@
+<!-- Create a container -->
+
+<!-- Create 3 rows  -->
+
+<!-- 1st Row: Add a header -->
+
+<!-- 2nd Row: Add 3 containers (label, paragraph w input, submit button) -->
+
+<!-- 3rd Row: Add 1 container -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <title>Temperature Scale Convertor</title>
+</head>
+<body>
+    <div class="bodyContainer">
+
+        <section class="bold">
+        <h1>Temperature Scale Convertor</h1>
+        </section>
+
+        <section class="flexRow">
+
+            <span class="flexCol">
+                <label>Fahrenheit</label>
+            </span>
+            
+            <!-- Creates input field for user -->
+            <span class="flexCol centerCol">
+                <label class="inputLabel">Value</label>
+                <input id="inputValue" type="number">
+                
+                <label class="bold">Celsius</label>
+                <label id="outputValue" class="bold"></label>
+            </span>
+
+            <!-- Create button that when clicked gets the user input & runs function-->
+            <span class="flexCol">
+                <button type="button" onclick="runMyFunction();">Calculate</button>
+            </span>
+
+        </section>
+
+    </div>
+
+<script src="javascript/script.js"></script>
+
+</body>
+</html>
