@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles_BR.css" rel="stylesheet">
     <title>Temperature Scale Convertor</title>
 </head>
 <body>
     <div class="bodyContainer">
 
-        <section class="bold">
-        <h1>Temperature Scale Convertor</h1>
-        </section>
-
+    <h1 class="bold">Temperature Scale Convertor</h1>
+     
         <section class="flexRow">
 
             <span class="flexCol">
@@ -23,15 +21,23 @@
             <span class="flexCol centerCol">
                 <label class="inputLabel">Value</label>
                 <input id="inputValue" type="number">
-                
-                <label class="bold">Celsius</label>
-                <label id="outputValue" class="bold"></label>
             </span>
 
             <!-- Create button that when clicked gets the user input & runs function-->
             <span class="flexCol">
                 <button type="button" onclick="runMyFunction();">Calculate</button>
             </span>
+
+        </section>
+
+        <section class="flexRow2">
+
+            <label class="flexCol bold">Celsius</label>
+            <label id="outputValue" class="bold"></label>
+
+
+
+
 
         </section>
 

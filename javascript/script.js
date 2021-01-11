@@ -6,7 +6,7 @@ function runMyFunction() {
     console.log(degreesFahrenheit);
 
     // Define variable to store result of formula & set it equal to the formula
-    let degreesCelsius = (degreesFahrenheit * 9 / 5) + 32
+    let degreesCelsius = ( (degreesFahrenheit - 32) * 5/9 )
     // Print the contents of the variable to the console
     console.log(degreesCelsius);
 
